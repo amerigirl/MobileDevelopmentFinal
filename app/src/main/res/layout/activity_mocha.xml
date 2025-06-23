@@ -5,28 +5,28 @@
     android:padding="24dp">
 
     <ImageView
-        android:id="@+id/latteImage"
+        android:id="@+id/mochaImage"
         android:layout_width="200dp"
         android:layout_height="120dp"
-        android:src="@drawable/latte"
+        android:src="@drawable/mocha"
         android:layout_gravity="center_horizontal" />
 
     <TextView
-        android:id="@+id/latteDescription"
+        android:id="@+id/mochaDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/vanilla_latte_smooth_espresso_with_vanilla_flavor"
+        android:text="@string/mocha_creamy_chocolate_flavor_available_with_whip"
         android:layout_marginTop="16dp" />
 
     <TextView
-        android:id="@+id/lattePrice"
+        android:id="@+id/mochaPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/price_4_50"
         android:layout_marginTop="8dp" />
 
     <EditText
-        android:id="@+id/latteQuantity"
+        android:id="@+id/mochaQuantity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
@@ -34,7 +34,7 @@
         android:layout_marginTop="8dp" />
 
     <Button
-        android:id="@+id/confirmLatteButton"
+        android:id="@+id/confirmMochaButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/add_to_order"
